@@ -1,0 +1,6 @@
+#!/bin/bash
+
+project_name=$(basename "$PWD")
+
+mkdir -p /d/dev/my-github-projects/readmes
+cp README.md "/d/dev/my-github-projects/readmes/${project_name}.md"
